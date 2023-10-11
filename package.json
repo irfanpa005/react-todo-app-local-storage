@@ -1,13 +1,13 @@
 {
-  "homepage": "http://irfanpa005.github.io/react-todo-app-local-storage",
   "name": "todo-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://irfanpa005.github.io/react-todo-app-local-storage",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
