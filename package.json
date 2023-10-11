@@ -1,4 +1,5 @@
 {
+  "homepage": "http://irfanpa005.github.io/react-todo-app-local-storage",
   "name": "todo-project",
   "private": true,
   "version": "0.0.0",
@@ -12,8 +13,10 @@
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.0.0",
     "jsonwebtoken": "^9.0.2",
     "jwt-decode": "^3.1.2",
+    "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",

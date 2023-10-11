@@ -1,13 +1,9 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Cookies from "universal-cookie"
-import jwt from 'jsonwebtoken';
-import { useParams } from 'react-router-dom'; 
 
 
 export const Home:React.FC = () => {
     const navigate = useNavigate();
-    const { username } = useParams();
 
     type SignInForm = {
         userName:string;

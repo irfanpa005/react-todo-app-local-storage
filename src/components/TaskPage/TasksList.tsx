@@ -1,8 +1,5 @@
 import './tasks.css'
 import { BsFillTrash3Fill} from "react-icons/bs";
-import { useEffect, useState } from 'react';
-
-
 
 type taskProps = {
     id:string
