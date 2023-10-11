@@ -98,10 +98,13 @@
   align-items: center;
   justify-content: space-between;
   border: 1px solid #4e1010;
+  flex-wrap: wrap;
 }
 
 .task-filter-menu > a {
   cursor: pointer;
+  padding: 10px 5px;
+  
 } 
 
 .task-striked{
